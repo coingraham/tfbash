@@ -11,3 +11,5 @@ tfenv install $VERSION
 tfenv use $VERSION
 
 terraform -v
+
+echo "Restart your Cloud Shell"

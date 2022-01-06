@@ -6,10 +6,10 @@
 VERSION=1.1.2
 sudo git clone https://github.com/tfutils/tfenv.git ~/.tfenv
 
+sudo ln -s ~/.tfenv/bin/* /usr/local/bin
+
 sudo $HOME/.tfenv/bin/tfenv install $VERSION
 sudo $HOME/.tfenv/bin/tfenv use $VERSION
-
-sudo ln -s ~/.tfenv/bin/* /usr/local/bin
 
 terraform -v
 

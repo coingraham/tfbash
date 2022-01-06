@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Use this with "wget -O - https://raw.githubusercontent.com/coingraham/tfbash/main/tfbash.sh | bash"
+# Use this with "wget -O - https://raw.githubusercontent.com/coingraham/tfbash/main/awsshell.sh | bash"
 
 # Update to the version of terraform you want
 VERSION=1.1.2

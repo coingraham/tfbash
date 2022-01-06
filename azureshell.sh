@@ -12,4 +12,4 @@ tfenv use $VERSION
 
 terraform -v
 
-echo "Restart your Cloud Shell"
+echo "\n**Restart your Cloud Shell**\n"
